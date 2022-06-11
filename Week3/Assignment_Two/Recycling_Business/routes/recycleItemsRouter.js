@@ -20,8 +20,12 @@ recycledItems.push(recycledItem);
 
 recycledItemRouter.get("/", (request, response) => {
     response.send(recycledItems);
-
 });
+
+recycledItemRouter.get("/:bookId", (request, response) => {
+    console.log(request);
+});
+
 
 
 recycledItemRouter.post("/", (request, response) => {
