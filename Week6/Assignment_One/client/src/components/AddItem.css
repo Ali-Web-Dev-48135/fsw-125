@@ -1,0 +1,30 @@
+form
+{
+    margin: 2rem auto 0rem auto;
+    border: 0.1rem solid black;
+    padding: 2rem;
+    width: 50%;
+    background-color: lightseagreen;
+}
+
+form input
+{
+    height: 1.3rem;
+    margin: 0rem 0.4rem 0rem 0.4rem;
+    font-size: 1rem;
+}
+
+form button
+{
+    width: 10rem;
+    margin-top: 0.5rem;
+    border: none;
+    font-size: 1rem;
+    padding: 0.4rem;
+    cursor: pointer;
+}
+
+form button:hover
+{
+    background-color: lightgreen;
+}
