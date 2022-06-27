@@ -1,7 +1,7 @@
 ul
 {
     list-style: none;
-    background-color: lightblue;
+    background-color: lightgreen;
     border-radius: 0.2rem;
     width: 50%;
     margin: 0.5rem auto;
@@ -10,8 +10,9 @@ ul
 
 ul li
 {
-    color: blue;
+    color: darkmagenta;
     font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .deleteBtn

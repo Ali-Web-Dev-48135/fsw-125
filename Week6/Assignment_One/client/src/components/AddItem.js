@@ -17,6 +17,13 @@ const AddItem = ({submit, btnText, name, description, level, Id}) => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
+        
+        console.log(inputs);
+        if(inputs.Name === "" || inputs.Description === "" || inputs.Level === "")
+           { 
+                alert("Inputs Cannot Be Empty");
+                return;
+           }
         setInputs(initialInputs);
         submit(inputs, Id);
 

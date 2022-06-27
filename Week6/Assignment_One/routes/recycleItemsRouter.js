@@ -23,18 +23,18 @@ let recycledItems = [
         Level: 2,
         Id: uuidv4(),
     },
-    {
-        Name: "Rubber",
-        Description: "Rubber material.",
-        Level: 4,
-        Id: uuidv4(),
-    },
-    {
-        Name: "Tires",
-        Description: "Tire material.",
-        Level: 3,
-        Id: uuidv4(),
-    },
+    // {
+    //     Name: "Rubber",
+    //     Description: "Rubber material.",
+    //     Level: 4,
+    //     Id: uuidv4(),
+    // },
+    // {
+    //     Name: "Tires",
+    //     Description: "Tire material.",
+    //     Level: 3,
+    //     Id: uuidv4(),
+    // },
 ];
 
 // routes.

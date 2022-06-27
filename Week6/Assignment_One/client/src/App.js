@@ -9,15 +9,16 @@ function App() {
   const [recycledItems, setRecycledItems] = useState([]);
 
   const getRecycledItems = () => {
+
     axios.get('/recycledItem')
     // .then(response => console.log(response))
     .then(response => setRecycledItems(response.data))
     .then(response => console.log(response))
-    .catch(error => console.log(error.response.data.error.errorMsg));
+    .catch(error => console.log(error));
   };
 
   const addRecycledItem = (itemToAdd) => {
-    console.log(itemToAdd)
+  
     axios.post("/recycledItem", itemToAdd)
       .then(response => {
         setRecycledItems( previousItems => [...previousItems, response.data]);
@@ -49,11 +50,13 @@ function App() {
   }, []);
 
   
-  const itemList = recycledItems.map(item => <RecycledItem 
+  const itemList = recycledItems.map(item => <RecycledItem
     {...item}
     deleteItem={deleteItem}
     editItem={editItem}
-    key={item.Id}/>)
+    key={item.Id}/>
+    
+    )
 
   return (
     <div className='App'>
