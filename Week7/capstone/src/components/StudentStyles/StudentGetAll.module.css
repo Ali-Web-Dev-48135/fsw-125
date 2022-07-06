@@ -1,0 +1,143 @@
+
+.all-students__wrapper
+{
+    /* border: 0.1rem solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem 1rem;
+    width: 99%;
+    margin: 2rem auto;    
+
+}
+
+.all-main__header
+{
+    margin: 0.5rem 0rem 0rem 0rem;
+    border-bottom: 0.2rem solid white;
+}
+
+@media screen and (min-width: 460px)
+{
+    .all-main__header
+    {
+        font-size: 1.9rem;
+        border: none;
+    }
+}
+
+
+.all-table
+{
+    border: 0.1rem solid black;
+    padding: 0.2rem 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem 0rem 0rem 0rem;
+    width: 100%;
+}
+
+
+.all-table thead
+{
+    width: 99%;
+    margin: 0.5rem 0rem 0.2rem 0rem;
+}
+
+@media screen and (min-width: 460px)
+{
+    .all-table thead
+    {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem 0rem;
+    }
+}
+
+
+.all-table thead tr
+{
+    width: 99%;
+}
+
+@media screen and (min-width: 460px)
+{
+    .all-table thead tr
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0.2rem 0rem;
+        
+    }
+}
+
+
+.all-table thead th
+{
+    width: 5rem;
+    font-size: 0.7rem;
+    padding: 0.3rem 0.2rem;
+    border: 1px solid black;
+    text-align: center;
+}
+
+@media screen and (min-width: 460px)
+{
+    .all-table thead th
+    {
+        width: 15rem;
+        font-size: 1.2rem;
+    }
+}
+
+
+.all-table tbody
+{
+    
+    width: 99%;
+    margin: 0.2rem 0rem;
+    
+}
+
+@media screen and (min-width: 460px) {
+    
+    .all-table tbody
+    {
+        padding: 0.2rem 0rem;
+    }
+    .all-table tbody tr
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 0.3rem 0rem;
+        
+    }
+}
+
+.all-table tbody td
+{
+    border: 1px solid black;
+    width: 5rem;
+    font-size: 0.6rem;
+    text-align: center;
+    padding: 0.3rem 0rem;
+}
+
+@media screen and (min-width: 460px)
+{
+    .all-table tbody td
+    {
+        width: 15rem;
+        font-size: 1.2rem;
+
+    }
+}
+

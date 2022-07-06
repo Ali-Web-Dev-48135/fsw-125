@@ -1,0 +1,72 @@
+.update-form
+{
+    margin: 0.3rem 0rem;
+    border: 0.1rem solid black;
+    padding: 0.3rem 0.2rem;
+}
+
+@media screen and (min-width: 460px)
+{
+    .update-form
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 50%;
+    }
+}
+.update-form div
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.2rem 0.2rem;
+
+}
+
+@media screen and (min-width: 460px)
+{
+    .update-form div
+    {
+        width: 80%;
+        justify-content: center;
+        border: 0.1rem solid black;
+        margin: 0.3rem 0rem;
+        padding: 0.3rem 0rem;
+    }
+}
+
+.update-form div input
+{
+    margin: 0rem 0.1rem;
+}
+
+@media screen and (min-width: 460px)
+{
+    .update-form div input
+    {
+        margin: 0rem 0rem 0rem 0.5rem;
+    } 
+    
+    .update-form div input:focus 
+    {
+        text-align: left;
+        padding: 0.2rem 0rem;
+
+    }
+}
+
+.update-form button
+{
+    padding: 0.2rem 0.2rem;
+    margin: 0rem 0rem 0rem 0.2rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.update-form button:hover
+{
+    background-color: lightgreen;
+    border: none;
+}

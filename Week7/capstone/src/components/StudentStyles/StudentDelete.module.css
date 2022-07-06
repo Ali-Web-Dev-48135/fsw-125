@@ -1,0 +1,79 @@
+
+
+
+.student-delete__wrapper
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+
+
+.student-delete__container
+{
+    border: 0.1rem solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0.2rem;
+    margin: 1rem 1rem;
+
+}
+
+.student-delete__container p 
+{
+    margin: 0rem 0.5rem;
+}
+
+.student-delete__container div
+{
+    padding: 1rem 0.5rem;
+}
+
+@media screen and (min-width: 460px)
+{
+    .student-delete__wrapper
+    {
+        border: 1px solid white;
+        margin: 2rem 0rem;
+    }
+    .student-delete__wrapper h4
+    {
+        font-size: 1.5rem;
+    }
+    .student-delete__container
+    {
+        border: 0.1rem solid black;
+        width:  50%;
+        padding: 1rem 0.5rem;
+        border-radius: 1rem;
+        background-color: rgb(146, 44, 146);
+    }
+
+    .student-delete__container p
+    {
+        font-size: 1.3rem;
+        padding: 0.2rem 0.2rem;
+        margin: 0rem 0.8rem;
+        color: white;
+    }
+
+    .student-delete__container button
+    {
+        width: 8rem;
+        border-radius: 0.3rem;
+        padding: 0.5rem 0rem;
+        font-size: 1rem;
+        cursor: pointer;
+
+    }
+
+    .student-delete__container button:hover
+    {
+        background-color: lightgreen;
+    }
+}

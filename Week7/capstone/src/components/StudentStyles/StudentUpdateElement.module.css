@@ -1,0 +1,100 @@
+
+h3
+{
+    margin: 0.5rem 0rem;
+}
+
+@media screen and (min-width: 460px) 
+{
+    h3
+    {
+        font-size: 1.5rem;
+    }    
+
+}
+
+.student-update__container
+{
+    border: 1px solid black;
+    margin: 0.5rem 0rem;
+    width: 100%;
+    padding: 0rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 460px)
+{
+    .student-update__container
+    {
+        border: none;
+        width: 70%;
+    }
+}
+
+.student-update__element
+{
+    border: 1px solid whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    padding: 0.8rem 0rem;
+    margin: 1.5rem 0rem;
+    width: 100%;
+}
+
+@media screen and (min-width: 460px)
+{
+    .student-update__element
+    {
+        border: 0.1rem solid black;
+        width:  70%;
+        padding: 1rem 0.5rem;
+        border-radius: 1rem;
+        background-color: rgb(146, 44, 146);
+    }
+}
+
+.student-update__element p
+{
+    margin: 0rem 0.2rem;
+}
+
+@media screen and (min-width: 460px)
+{
+    .student-update__element p 
+    {
+        font-size: 1.3rem;
+        color: white;
+        padding: 0.2rem 0.2rem;
+        margin: 0rem 0.8rem;
+    }
+}
+
+.student-update__element button
+{
+    width: 5rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 0.2rem 0rem;
+}
+
+@media screen and (min-width: 460px)
+{
+    .student-update__element button 
+    {
+        width: 8rem;
+        border-radius: 0.3rem;
+        padding: 0.5rem 0rem;
+        font-size: 1rem;
+    }
+
+    .student-update__element button:hover 
+    {
+        background-color: lightgreen;
+    }
+}

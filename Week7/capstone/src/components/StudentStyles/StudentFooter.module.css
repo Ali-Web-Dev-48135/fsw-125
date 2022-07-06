@@ -1,0 +1,27 @@
+
+.main-footer
+{
+    margin: auto;
+    border: 0.1rem solid black;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 0rem;
+}
+
+@media screen and (min-width: 460px)
+{
+    .main-footer
+    {
+        border: 0.2rem solid white;
+        height: 70px;
+        padding: 0.5rem 0rem;
+    }
+    .main-footer h4
+    {
+        font-size: 1.5rem;
+        
+    }
+}

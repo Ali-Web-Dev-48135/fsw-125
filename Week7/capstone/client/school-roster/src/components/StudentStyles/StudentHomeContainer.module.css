@@ -1,0 +1,57 @@
+
+.link-container
+{
+    border: 0.1rem solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3rem 0.3rem;
+    width: 90%;
+    margin: 1rem auto 0rem auto;
+    background-color: purple;
+    outline: none;
+}
+
+@media screen and (min-width: 460px)
+{
+    .link-container
+    {
+        width: 50%;
+        padding: 2rem 0rem;
+        margin: 3rem 0rem;
+        border-radius: 2rem;
+    }
+}
+
+.link-container a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin: 0rem 0.5rem;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+@media screen and (min-width: 460px) {
+    .link-container a
+    {
+        font-size: 2rem;
+    }
+
+
+}
+
+
+@media screen and (min-width: 460px)
+{
+    .link-container a:hover
+    {
+        outline: none;
+        text-decoration: 0.3rem solid underline;
+    }
+
+}
+
+
+/* media styles below */

@@ -1,0 +1,32 @@
+
+
+.main-header
+{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: purple;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 3.5rem;
+}
+
+@media screen and (min-width: 460px)
+{
+    .main-header
+    {
+        height: 70px;
+    }
+    
+    .main-header h3
+    {
+        font-size: 1.5rem;
+    }
+}
+
+
