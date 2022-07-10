@@ -58,8 +58,16 @@ function App() {
     
     )
 
+
+    const inlineHeaderStyles = {
+      "font-size": "1.9rem",
+      "margin-top": "5rem",
+      "color": "white"
+    };
+
   return (
     <div className='App'>
+      <h3 style={inlineHeaderStyles}>Mike's Recycling Business</h3>
       <AddItem btnText="Add Item" submit={addRecycledItem} />
       {itemList}
     </div>
